@@ -1,0 +1,11 @@
+.containerTyping {
+    width: fit-content;
+    background-color: transparent;}
+
+    .containerTyping .title {
+        background: transparent;
+        width: fit-content;
+        font-style: oblique;
+        font-size: 12px;
+        color: #03a9f4;
+    }

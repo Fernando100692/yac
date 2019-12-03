@@ -1,0 +1,17 @@
+.sendContainer {
+    height: 6%;
+    border-top: 1px solid #03a9f4;
+    padding: 20;
+    background-color: #ffffff;}
+    @media screen and (max-width: 760px) {
+        .sendContainer {
+            height: 10%;} }
+
+    .sendContainer input {
+        width: 100%;
+        margin-top: 10px;
+        color: inherit;
+        background: none;
+        outline: none;
+        border: none;
+        font-size: 16px;}

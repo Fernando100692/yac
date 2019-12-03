@@ -1,0 +1,29 @@
+[debug] [2019-12-02T13:41:24.593Z] ----------------------------------------------------------------------
+[debug] [2019-12-02T13:41:24.595Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-12-02T13:41:24.595Z] CLI Version:   7.8.1
+[debug] [2019-12-02T13:41:24.595Z] Platform:      darwin
+[debug] [2019-12-02T13:41:24.595Z] Node Version:  v12.13.1
+[debug] [2019-12-02T13:41:24.598Z] Time:          Mon Dec 02 2019 08:41:24 GMT-0500 (Colombia Standard Time)
+[debug] [2019-12-02T13:41:24.598Z] ----------------------------------------------------------------------
+[debug] [2019-12-02T13:41:24.598Z] 
+[debug] [2019-12-02T13:41:24.604Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-02T13:41:24.604Z] > authorizing via signed-in user
+[debug] [2019-12-02T13:41:24.604Z] [iam] checking project media-chat-86bfa for permissions ["firebase.projects.get"]
+[debug] [2019-12-02T13:41:24.605Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-02T13:41:24.605Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-02T13:41:25.082Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-02T13:41:25.109Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/media-chat-86bfa:testIamPermissions  
+
+[debug] [2019-12-02T13:41:26.017Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-02T13:41:26.018Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/media-chat-86bfa  
+ 
+[debug] [2019-12-02T13:41:26.688Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/luisruano/Documents/Fernando/React Projects/my_media_chat'...
+[info] 
+[debug] [2019-12-02T13:41:26.689Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/media-chat-86bfa/webApps/-/config  
+ 
+[debug] [2019-12-02T13:41:27.377Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
